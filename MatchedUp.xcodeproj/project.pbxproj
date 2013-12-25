@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BA42FBA8E4B419FBA3FFDCB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4245FB82B4974B518D59E7AE /* libPods.a */; };
+		FE0747C418681AEB006DFE80 /* CCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0747C318681AEB006DFE80 /* CCHomeViewController.m */; };
+		FE0747C818682ABC006DFE80 /* CCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0747C718682ABC006DFE80 /* CCSettingsViewController.m */; };
+		FE0747CC186A709B006DFE80 /* CCEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0747CB186A709B006DFE80 /* CCEditProfileViewController.m */; };
+		FE0747D0186A762F006DFE80 /* CCProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0747CF186A762F006DFE80 /* CCProfileViewController.m */; };
 		FEF96A29185D2971001BA5C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF96A28185D2971001BA5C6 /* Foundation.framework */; };
 		FEF96A2B185D2971001BA5C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF96A2A185D2971001BA5C6 /* CoreGraphics.framework */; };
 		FEF96A2D185D2971001BA5C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF96A2C185D2971001BA5C6 /* UIKit.framework */; };
@@ -14,14 +19,14 @@
 		FEF96A35185D2971001BA5C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF96A34185D2971001BA5C6 /* main.m */; };
 		FEF96A39185D2971001BA5C6 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF96A38185D2971001BA5C6 /* CCAppDelegate.m */; };
 		FEF96A3C185D2971001BA5C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF96A3A185D2971001BA5C6 /* Main.storyboard */; };
-		FEF96A3F185D2971001BA5C6 /* CCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF96A3E185D2971001BA5C6 /* CCFirstViewController.m */; };
-		FEF96A42185D2971001BA5C6 /* CCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF96A41185D2971001BA5C6 /* CCSecondViewController.m */; };
 		FEF96A44185D2971001BA5C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF96A43185D2971001BA5C6 /* Images.xcassets */; };
 		FEF96A4B185D2971001BA5C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF96A4A185D2971001BA5C6 /* XCTest.framework */; };
 		FEF96A4C185D2971001BA5C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF96A28185D2971001BA5C6 /* Foundation.framework */; };
 		FEF96A4D185D2971001BA5C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF96A2C185D2971001BA5C6 /* UIKit.framework */; };
 		FEF96A55185D2971001BA5C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEF96A53185D2971001BA5C6 /* InfoPlist.strings */; };
 		FEF96A57185D2971001BA5C6 /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF96A56185D2971001BA5C6 /* MatchedUpTests.m */; };
+		FEF96A62185D2A64001BA5C6 /* CCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF96A61185D2A64001BA5C6 /* CCLoginViewController.m */; };
+		FEF96A66185E6307001BA5C6 /* CCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF96A65185E6307001BA5C6 /* CCConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4245FB82B4974B518D59E7AE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA7CD0F554F4F87A865540B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FE0747C218681AEB006DFE80 /* CCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHomeViewController.h; sourceTree = "<group>"; };
+		FE0747C318681AEB006DFE80 /* CCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHomeViewController.m; sourceTree = "<group>"; };
+		FE0747C618682ABC006DFE80 /* CCSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSettingsViewController.h; sourceTree = "<group>"; };
+		FE0747C718682ABC006DFE80 /* CCSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSettingsViewController.m; sourceTree = "<group>"; };
+		FE0747CA186A709B006DFE80 /* CCEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditProfileViewController.h; sourceTree = "<group>"; };
+		FE0747CB186A709B006DFE80 /* CCEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditProfileViewController.m; sourceTree = "<group>"; };
+		FE0747CE186A762F006DFE80 /* CCProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCProfileViewController.h; sourceTree = "<group>"; };
+		FE0747CF186A762F006DFE80 /* CCProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCProfileViewController.m; sourceTree = "<group>"; };
 		FEF96A25185D2971001BA5C6 /* MatchedUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF96A28185D2971001BA5C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FEF96A2A185D2971001BA5C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +61,16 @@
 		FEF96A37185D2971001BA5C6 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		FEF96A38185D2971001BA5C6 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		FEF96A3B185D2971001BA5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FEF96A3D185D2971001BA5C6 /* CCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCFirstViewController.h; sourceTree = "<group>"; };
-		FEF96A3E185D2971001BA5C6 /* CCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFirstViewController.m; sourceTree = "<group>"; };
-		FEF96A40185D2971001BA5C6 /* CCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCSecondViewController.h; sourceTree = "<group>"; };
-		FEF96A41185D2971001BA5C6 /* CCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCSecondViewController.m; sourceTree = "<group>"; };
 		FEF96A43185D2971001BA5C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FEF96A49185D2971001BA5C6 /* MatchedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF96A4A185D2971001BA5C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FEF96A52185D2971001BA5C6 /* MatchedUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchedUpTests-Info.plist"; sourceTree = "<group>"; };
 		FEF96A54185D2971001BA5C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEF96A56185D2971001BA5C6 /* MatchedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUpTests.m; sourceTree = "<group>"; };
+		FEF96A60185D2A64001BA5C6 /* CCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoginViewController.h; sourceTree = "<group>"; };
+		FEF96A61185D2A64001BA5C6 /* CCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoginViewController.m; sourceTree = "<group>"; };
+		FEF96A64185E6307001BA5C6 /* CCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConstants.h; sourceTree = "<group>"; };
+		FEF96A65185E6307001BA5C6 /* CCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +81,7 @@
 				FEF96A2B185D2971001BA5C6 /* CoreGraphics.framework in Frameworks */,
 				FEF96A2D185D2971001BA5C6 /* UIKit.framework in Frameworks */,
 				FEF96A29185D2971001BA5C6 /* Foundation.framework in Frameworks */,
+				1BA42FBA8E4B419FBA3FFDCB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +98,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE0747C1186818F8006DFE80 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE0747C218681AEB006DFE80 /* CCHomeViewController.h */,
+				FE0747C318681AEB006DFE80 /* CCHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		FE0747C518682A5C006DFE80 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FE0747C618682ABC006DFE80 /* CCSettingsViewController.h */,
+				FE0747C718682ABC006DFE80 /* CCSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		FE0747C9186A7015006DFE80 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FE0747CA186A709B006DFE80 /* CCEditProfileViewController.h */,
+				FE0747CB186A709B006DFE80 /* CCEditProfileViewController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		FE0747CD186A7607006DFE80 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FE0747CE186A762F006DFE80 /* CCProfileViewController.h */,
+				FE0747CF186A762F006DFE80 /* CCProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		FEF96A1C185D2971001BA5C6 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +141,7 @@
 				FEF96A50185D2971001BA5C6 /* MatchedUpTests */,
 				FEF96A27185D2971001BA5C6 /* Frameworks */,
 				FEF96A26185D2971001BA5C6 /* Products */,
+				EFA7CD0F554F4F87A865540B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +161,7 @@
 				FEF96A2A185D2971001BA5C6 /* CoreGraphics.framework */,
 				FEF96A2C185D2971001BA5C6 /* UIKit.framework */,
 				FEF96A4A185D2971001BA5C6 /* XCTest.framework */,
+				4245FB82B4974B518D59E7AE /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +172,11 @@
 				FEF96A37185D2971001BA5C6 /* CCAppDelegate.h */,
 				FEF96A38185D2971001BA5C6 /* CCAppDelegate.m */,
 				FEF96A3A185D2971001BA5C6 /* Main.storyboard */,
-				FEF96A3D185D2971001BA5C6 /* CCFirstViewController.h */,
-				FEF96A3E185D2971001BA5C6 /* CCFirstViewController.m */,
-				FEF96A40185D2971001BA5C6 /* CCSecondViewController.h */,
-				FEF96A41185D2971001BA5C6 /* CCSecondViewController.m */,
+				FEF96A63185D2A82001BA5C6 /* Login */,
+				FE0747C1186818F8006DFE80 /* Home */,
+				FE0747C518682A5C006DFE80 /* Settings */,
+				FE0747C9186A7015006DFE80 /* EditProfile */,
+				FE0747CD186A7607006DFE80 /* Profile */,
 				FEF96A43185D2971001BA5C6 /* Images.xcassets */,
 				FEF96A2F185D2971001BA5C6 /* Supporting Files */,
 			);
@@ -135,6 +190,8 @@
 				FEF96A31185D2971001BA5C6 /* InfoPlist.strings */,
 				FEF96A34185D2971001BA5C6 /* main.m */,
 				FEF96A36185D2971001BA5C6 /* MatchedUp-Prefix.pch */,
+				FEF96A64185E6307001BA5C6 /* CCConstants.h */,
+				FEF96A65185E6307001BA5C6 /* CCConstants.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,6 +214,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FEF96A63185D2A82001BA5C6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FEF96A60185D2A64001BA5C6 /* CCLoginViewController.h */,
+				FEF96A61185D2A64001BA5C6 /* CCLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEF96A5A185D2971001BA5C6 /* Build configuration list for PBXNativeTarget "MatchedUp" */;
 			buildPhases = (
+				6EA384EADB0D462F9AC8BC2A /* Check Pods Manifest.lock */,
 				FEF96A21185D2971001BA5C6 /* Sources */,
 				FEF96A22185D2971001BA5C6 /* Frameworks */,
 				FEF96A23185D2971001BA5C6 /* Resources */,
+				BDE554B6C401448A91D9BEC4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,15 +318,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EA384EADB0D462F9AC8BC2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE554B6C401448A91D9BEC4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEF96A21185D2971001BA5C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF96A42185D2971001BA5C6 /* CCSecondViewController.m in Sources */,
+				FE0747C418681AEB006DFE80 /* CCHomeViewController.m in Sources */,
+				FEF96A66185E6307001BA5C6 /* CCConstants.m in Sources */,
+				FE0747D0186A762F006DFE80 /* CCProfileViewController.m in Sources */,
+				FEF96A62185D2A64001BA5C6 /* CCLoginViewController.m in Sources */,
+				FE0747C818682ABC006DFE80 /* CCSettingsViewController.m in Sources */,
 				FEF96A39185D2971001BA5C6 /* CCAppDelegate.m in Sources */,
-				FEF96A3F185D2971001BA5C6 /* CCFirstViewController.m in Sources */,
 				FEF96A35185D2971001BA5C6 /* main.m in Sources */,
+				FE0747CC186A709B006DFE80 /* CCEditProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +487,7 @@
 		};
 		FEF96A5B185D2971001BA5C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA7CD0F554F4F87A865540B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -395,6 +501,7 @@
 		};
 		FEF96A5C185D2971001BA5C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA7CD0F554F4F87A865540B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -467,6 +574,7 @@
 				FEF96A5C185D2971001BA5C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEF96A5D185D2971001BA5C6 /* Build configuration list for PBXNativeTarget "MatchedUpTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +583,7 @@
 				FEF96A5F185D2971001BA5C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

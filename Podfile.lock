@@ -1,0 +1,13 @@
+PODS:
+  - Facebook-iOS-SDK (3.10.0)
+  - Parse (1.2.17):
+    - Facebook-iOS-SDK (~> 3.9)
+
+DEPENDENCIES:
+  - Parse
+
+SPEC CHECKSUMS:
+  Facebook-iOS-SDK: ef402579aeb30cf0c4a6370fb0a927e3dc3059e5
+  Parse: 0647e995f0afadad3f0f015304912a859c2958c8
+
+COCOAPODS: 0.28.0
